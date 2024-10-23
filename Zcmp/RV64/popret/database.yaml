@@ -1,0 +1,14 @@
+# database generated on 2024-10-23 13:41 GMT
+!!omap
+- /media/saravana/Non-os/ACT_Generated_Tests/Zcmp/RV64/popret/cm.popret-01.S:
+    commit_id: '-'
+    isa:
+    - RV64I_Zca_Zcmp
+    parts: !!omap
+    - '0':
+        check:
+        - check ISA:=regex(.*I.*Zca.*Zcmp.*)
+        define:
+        - def TEST_CASE_1=True
+        coverage_labels:
+        - cm.popret

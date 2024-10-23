@@ -1,0 +1,27 @@
+cm.mva01s:
+     config:
+        - check ISA:=regex(.*I.*Zca.*Zcmp.*)
+     mnemonics:
+          cm.mva01s: 8
+          coverage: 1/1
+     rs1:
+          s0: 1
+          s1: 1
+          s2: 1
+          s3: 1
+          s4: 1
+          s5: 1
+          s6: 1
+          s7: 1
+          coverage: 8/8
+     rs2:
+          s0: 1
+          s1: 1
+          s2: 1
+          s3: 1
+          s4: 1
+          s5: 1
+          s6: 1
+          s7: 1
+          coverage: 8/8
+     total_coverage: 17/17

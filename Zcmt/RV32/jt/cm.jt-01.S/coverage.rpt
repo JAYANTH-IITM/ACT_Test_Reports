@@ -1,0 +1,11 @@
+---
+cm.jt:
+  config:
+  - check ISA:=regex(.*I.*Zca.*Zcmt.*)
+  mnemonics:
+    cm.jt: 1
+    coverage: 1/1
+  val_comb:
+    imm_val >= 0 and imm_val < 32: 1
+    coverage: 1/1
+  total_coverage: 2/2

@@ -1,0 +1,11 @@
+# testlist generated on 2024-10-23 13:33 GMT
+/media/saravana/Non-os/ACT_Generated_Tests/Zcmp/RV64/push/cm.push-01.S:
+  commit_id: '-'
+  work_dir: /media/saravana/Non-os/ACT_Test_Reports/Zcmp/RV64/push/cm.push-01.S
+  macros:
+  - TEST_CASE_1=True
+  - XLEN=64
+  isa: RV64I_Zca_Zcmp
+  coverage_labels:
+  - cm.push
+  test_path: /media/saravana/Non-os/ACT_Generated_Tests/Zcmp/RV64/push/cm.push-01.S
