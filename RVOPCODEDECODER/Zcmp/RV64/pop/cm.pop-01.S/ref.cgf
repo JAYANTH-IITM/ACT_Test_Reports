@@ -1,0 +1,27 @@
+cm.pop:
+     config:
+        - check ISA:=regex(.*I.*Zca.*Zcmp.*)
+     mnemonics:
+          cm.pop: 4
+          coverage: 1/1
+     rs1:
+          x1: 1
+          x18: 0
+          x19: 0
+          x20: 0
+          x21: 1
+          x22: 0
+          x23: 0
+          x24: 0
+          x25: 1
+          x27: 1
+          x8: 0
+          x9: 0
+          coverage: 4/12
+     val_comb:
+          imm_val == 0: 1
+          imm_val == 1: 1
+          imm_val == 2: 1
+          imm_val == 3: 1
+          coverage: 4/4
+     total_coverage: 9/17

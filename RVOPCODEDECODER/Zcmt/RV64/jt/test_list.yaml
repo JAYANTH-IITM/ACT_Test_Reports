@@ -1,0 +1,11 @@
+# testlist generated on 2024-10-29 08:35 GMT
+/media/saravana/Non-os/ACT_Generated_Tests/Zcmt/RV64/jt/cm.jt-01.S:
+  commit_id: '-'
+  work_dir: /media/saravana/Non-os/ACT_Test_Reports/RVOPCODEDECODER/Zcmt/RV64/jt/cm.jt-01.S
+  macros:
+  - TEST_CASE_1=True
+  - XLEN=64
+  isa: RV64I_Zca_Zcmt
+  coverage_labels:
+  - cm.jt
+  test_path: /media/saravana/Non-os/ACT_Generated_Tests/Zcmt/RV64/jt/cm.jt-01.S

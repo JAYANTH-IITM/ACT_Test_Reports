@@ -1,0 +1,14 @@
+# database generated on 2024-10-29 07:26 GMT
+!!omap
+- /media/saravana/Non-os/ACT_Generated_Tests/Zcmp/RV32/pop/cm.pop-01.S:
+    commit_id: '-'
+    isa:
+    - RV32I_Zca_Zcmp
+    parts: !!omap
+    - '0':
+        check:
+        - check ISA:=regex(.*I.*Zca.*Zcmp.*)
+        define:
+        - def TEST_CASE_1=True
+        coverage_labels:
+        - cm.pop
